@@ -62,3 +62,6 @@ svg {
     scroll-behavior: auto !important;
   }
 }
+body {
+  background-color: #211f1f;
+}
