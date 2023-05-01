@@ -16,7 +16,7 @@ const style = () => ({
     },
     tile: {
         borderRadius: '1vmax',
-        transition: 'transform 400ms ease',
+        transition: 'transform 800ms ease',
         position: 'absolute'
     },
     tile1: {
