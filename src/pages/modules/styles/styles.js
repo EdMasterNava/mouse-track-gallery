@@ -11,13 +11,15 @@ const style = () => ({
     },
     gallary: {
         position: 'absolute',
-        height: '60vmax',
-        width: '100vmax'
+        height: '100vmax',
+        width: '140vmax',
+        transition: 'transform .02s ease-in-out .04s',
     },
     tile: {
         borderRadius: '1vmax',
-        transition: 'transform 800ms ease',
-        position: 'absolute'
+        position: 'absolute',
+        transition: 'transform 1s ease 1s',
+        overflow: 'hidden'
     },
     tile1: {
         backgroundColor: '#8f2d56',
